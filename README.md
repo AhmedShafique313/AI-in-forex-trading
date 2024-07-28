@@ -1,6 +1,7 @@
 # Artificial Intelligence based forex trading projects
 This is client based project, client from Malaysia and he asked me to use AI in forex trading to predict future prices by using `hundred thousands` of `indicators`. Client information is not provided in this repository. This repository will be `private` on completion of the project. 
-### `Developer: Ahmed Shafique`
+
+`Developer: Ahmed Shafique`
 # Models and Predictions🔮
 There are many machine learning, deep learning, artificial intelligence models and transformers are used in this project to predict future prices of forex trading market with high value of accuracy
 ### 1. Simple Linear Regression Model
