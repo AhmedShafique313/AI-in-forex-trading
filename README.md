@@ -7,6 +7,7 @@ There are many machine learning, deep learning, artificial intelligence models a
 This model is applied on the numeric dataset containing 5 features. The dataset is related to the 4-hour ESDUSD. The feature `close` is on y-asix and features `open, low, high, volume` are on x-asix. 
 - Accuracy: 0.99
 - Dataset: 28000+
+  
 This model is best fit for this dataset and it is used as channel in forex trading software to check the prediction of the linear regression model on the base of historical datasets.
 
 ### 2. Multiple Linear Regression Model
