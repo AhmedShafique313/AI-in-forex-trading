@@ -1,4 +1,4 @@
-from model_LR import model, x_test, y_test, x_val, y_val, test_predictions
+from model_LR import model, x_test, y_test, x_val, y_val
 import matplotlib.pyplot as plt
 
 print('Coefficient: ', model.coef_)
