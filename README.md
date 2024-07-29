@@ -5,7 +5,7 @@ This is client based project, client from Malaysia and he asked me to use AI in 
 # Models and Predictions🔮
 There are many machine learning, deep learning, artificial intelligence models and transformers are used in this project to predict future prices of forex trading market with high value of accuracy
 ### 1. Simple Linear Regression Model
-This model is applied on the numeric dataset containing 5 features. The dataset is related to the 4-hour ESDUSD. The feature `close` is on y-asix and features `open, low, high, volume` are on x-asix. 
+This model is applied on the numeric dataset containing 5 features. The dataset is related to the 4-hour EURUSD. The feature `close` is on y-asix and features `open, low, high, volume` are on x-asix. 
 - Accuracy: 0.99
 - Dataset: 28000+
   
