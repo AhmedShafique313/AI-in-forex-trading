@@ -1,5 +1,6 @@
 from model_LR import model, x_test, y_test, x_val, y_val
 import matplotlib.pyplot as plt
+import joblib
 
 print('Coefficient: ', model.coef_)
 print('Intercept: ', model.intercept_)
@@ -24,3 +25,5 @@ plt.ylabel('Prices')
 plt.title('Actual vs Predicted Prices (Validation Set)')
 plt.legend()
 plt.show()
+
+joblib.dump(model, 'forex_LR_model.pkl')

@@ -2,7 +2,6 @@ from cleaning_csv import dataset
 import matplotlib.pyplot as plt
 from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LinearRegression
-import joblib
 
 x = dataset[['open', 'high', 'low', 'volume']]
 y = dataset[['close']]
@@ -16,7 +15,7 @@ print(f'Validation set size: {x_val.shape[0]} samples')
 
 model = LinearRegression()
 model.fit(x_train, y_train)
-joblib.dump(model, 'forex_LR_model.pkl')
+
 
 test_predictions = model.predict(x_test)
 
