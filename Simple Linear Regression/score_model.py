@@ -1,4 +1,4 @@
-from model_LR import model, x_test, y_test, x_val, y_val
+from model_LR import model, x_test, y_test, x_val, y_val, test_predictions
 import matplotlib.pyplot as plt
 import joblib
 
@@ -9,33 +9,9 @@ test_score = model.score(x_test, y_test)
 print('Test set score: ', test_score)
 
 val_predictions = model.predict(x_val)
-plt.scatter(y_val, val_predictions)
-plt.xlabel('Actual Prices')
-plt.ylabel('Predicted Prices')
-plt.title('Actual vs Predicted Prices (Validation Set)')
-plt.show()
 
 val_score = model.score(x_val, y_val)
 print('Validation Set Score:', val_score)
-
-plt.plot(y_val.values, label='Actual Prices')
-plt.plot(val_predictions, label='Predicted Prices', linestyle='--')
-plt.xlabel('Index')
-plt.ylabel('Prices')
-plt.title('Actual vs Predicted Prices (Validation Set)')
-plt.legend()
-plt.show()
-
-plt.figure(figsize=(12, 6))
-plt.plot(y_val.values, label='Actual Prices', color='green')
-plt.plot(val_predictions, label='Predicted Prices', linestyle='--', color='orange')
-plt.xlabel('Index')
-plt.ylabel('Prices')
-plt.title('Actual vs Predicted Prices (Validation Set)')
-plt.legend()
-plt.grid(True, which='both', linestyle='--', linewidth=0.5)
-plt.style.use('dark_background')
-plt.show()
 
 fig, (ax1, ax2) = plt.subplots(2, 1, figsize=(12, 8), sharex=True)
 
@@ -61,5 +37,6 @@ ax2.set_ylabel('Price')
 
 # Show plot
 plt.show()
+
 
 joblib.dump(model, 'forex_LR_model.pkl')
