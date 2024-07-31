@@ -1,4 +1,4 @@
-# Artificial Intelligence based forex trading projects
+# Artificial Intelligence based forex trading project (AI trading bot)
 This is client based project, client from Malaysia and he asked me to use AI in forex trading to predict future prices by using `hundred thousands` of `indicators`. Client information is not provided in this repository. This repository will be `private` on completion of the project. 
 
 `Developer: Ahmed Shafique`
