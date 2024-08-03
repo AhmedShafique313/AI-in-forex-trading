@@ -12,3 +12,9 @@ This model is applied on the numeric dataset containing 5 features. The dataset 
 This model is best fit for this dataset and it is used as channel in forex trading software to check the prediction of the linear regression model on the base of historical datasets.
 
 ### 2. Multiple Linear Regression Model
+This model is applied on the numeric dataset containing 5 features. The dataset is related to the 1-day EURUSD. The feature `close` is on y-asix and features `open, low, high, volume` are on x-asix.
+- Accuracy: 0.99
+- Dataset: 68000+
+
+However there is an overfitting in this model, also this model fails to show best fit on the graph. However multiple linear regression is more complex then linear regrssion model but it fails😢 to predict and it requires more data then I provided. 
+However, linear regression also fit on the graph as well.
