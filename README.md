@@ -18,3 +18,8 @@ This model is applied on the numeric dataset containing 5 features. The dataset 
 
 However there is an overfitting in this model, also this model fails to show best fit on the graph. However multiple linear regression is more complex then linear regrssion model but it fails😢 to predict and it requires more data then I provided. 
 However, linear regression also fit on the graph as well.
+
+# Natural Language Processing
+### 1. Text Data Ingestion
+1. YouTube Data Ingestion
+You need a google cloud console and get the api-key of the youtube and install the youtube api. `pip install youtube-transcript-api`
