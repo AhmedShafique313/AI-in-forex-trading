@@ -26,6 +26,5 @@ for post in subreddit.top(time_filter="all", limit=100):
 
     posts_data.append(post_data)
 
-# Save the post data to a JSON file
-with open("forex_posts.json", "w") as f:
-    json.dump(posts_data, f, indent=4)
+with open("forex_posts.json", "w") as file:
+    json.dump(posts_data, file, indent=4)
