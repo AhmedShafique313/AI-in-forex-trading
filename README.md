@@ -23,3 +23,5 @@ However, linear regression also fit on the graph as well.
 ### 1. Text Data Ingestion
 1. YouTube Data Ingestion
 You need a google cloud console and get the api-key of the youtube and install the youtube api. `pip install youtube-transcript-api`
+
+2. Reddit forum
