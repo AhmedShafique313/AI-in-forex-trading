@@ -25,3 +25,4 @@ However, linear regression also fit on the graph as well.
 You need a google cloud console and get the api-key of the youtube and install the youtube api. `pip install youtube-transcript-api`
 
 2. Reddit forum
+3. LSTM
