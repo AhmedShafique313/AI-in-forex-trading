@@ -9,6 +9,6 @@ model.add(LSTM(units=50))
 model.add(Dense(1))
 model.compile(loss='mean_squared_error', optimizer='adam')
 
-model.fit(x_train, y_train, epochs=120, batch_size=24, validation_data=(x_test, y_test))
+model.fit(x_train, y_train, epochs=180, batch_size=20, validation_data=(x_test, y_test))
 mse = model.evaluate(x_test, y_test)
 print(f'MSE: {mse}')
