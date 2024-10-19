@@ -7,17 +7,12 @@ youtube_file_path = r'C:\Users\Ahmed Shafique\Documents\Projects\AI-in-forex-tra
 with open(reddit_file_path) as O:
     reddit_data = json.load(O)
 
-# with open(youtube_file_path) as O:
-#     youtube_data = json.load(O)
 
 reddit_df = pd.DataFrame(reddit_data)
-# youtube_df = pd.DataFrame(youtube_data)
+
 
 # remove missing rows
 reddit_df = reddit_df.dropna()
-# youtube_df = youtube_df.dropna()
 
-# youtube_df = youtube_df.drop(columns= 'video_id')
-
+reddit_df['title'] = reddit_df['title'].str.lower()
 print(reddit_df.head())
-# print(youtube_df.head())
